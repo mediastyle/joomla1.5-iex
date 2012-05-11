@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="plugin" group="system">
+   <name>IEX Integration</name>
+   <author>Mediastyle | Benjamin Jensen</author>
+   <creationDate>February 2012</creationDate>
+   <copyright>(C) 2012 Open Source Matters. All rights reserved.</copyright>
+   <license>GNU/GPL</license>
+   <authorEmail>kontakt@mediastyle.dk</authorEmail>
+   <authorUrl>mediastyle.dk</authorUrl>
+   <version>1.1</version>
+   <description>Integration between IEX and Virtuemart</description>
+   <files>
+       <filename plugin="iex">iex.php</filename>
+   </files>
+   <params>
+       <param name="customer" type="text" size="20" default="" label="Customer" description="Customer"/>
+	   <param name="link" type="text" size="20" default="" label="Link" description="Link"/>
+	   <param name="secret" type="text" size="20" default="" label="Secret" description="Secret"/>   
+   </params>
+</install>
